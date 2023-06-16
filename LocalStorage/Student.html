@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Management</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.0/js.cookie.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Student Management</h1>
+  <div class="container">
+    <div class="col-md-4">
+  <form id="userForm">
+    <div class="form-group">
+      <label>Name</label>
+    <input type="text" id="name" placeholder="Name" class="form-control">
+  </div>
+  <div class="form-group">
+    <label>Std</label>
+    <input type="text" id="std" placeholder="Class" class="form-control">
+  </div>
+  <div class="form-group">
+
+    <label>Roll No</label>
+    <input type="text" id="rollno" class="form-control" required />
+</div>
+<div class="form-group">
+
+    <label>English</label>
+    <input type="text" id="english" class="form-control" required />
+</div>
+<div class="form-group">
+
+    <label>Marathi</label>
+    <input type="text" id="marathi" class="form-control" required />
+</div>
+<div class="form-group">
+
+  <label>Physics</label>
+  <input type="text" id="physics" class="form-control" required />
+</div>
+<div class="form-group">
+
+  <label>Chemistry</label>
+  <input type="text" id="chemistry" class="form-control" required />
+</div>
+<div class="form-group">
+
+  <label>Maths</label>
+  <input type="text" id="maths" class="form-control" required />
+</div>
+<div class="form-group">
+
+  <label>Electronics</label>
+  <input type="text" id="electronics" class="form-control" required />
+</div>
+
+    <button type="submit">Add Student</button>
+
+  </form>
+  <button class="btn btn-light"> <a href="Read.html">Display record</a></button>
+
+</div>
+</div>
+<!--<table id="userTable" class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Class</th>
+      <th>Marks</th>
+      <th>CollegeName</th>
+      <th>City</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+-->
+  <script src="Student.js"></script>
+</body>
+</html>
